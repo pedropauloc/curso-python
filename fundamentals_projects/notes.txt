@@ -1,0 +1,2 @@
+encoding = # -*- coding: utf-8 -*-
+Shebang = #!/usr/local/bin/python
