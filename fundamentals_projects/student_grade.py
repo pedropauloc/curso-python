@@ -9,4 +9,4 @@ elif grade >= 5:
 elif grade >= 3:
     print('Recovery + Work')
 else:
-    print('Disapproved')
+    print('Disapproved') 
