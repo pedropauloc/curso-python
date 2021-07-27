@@ -1,0 +1,5 @@
+values = ('Pedro', 4)
+'name {} age {}'.format(*values)
+
+Trunck == * 
+Extract the values
