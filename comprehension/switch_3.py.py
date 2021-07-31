@@ -1,4 +1,3 @@
-
 def get_type_day(day):
     days = {
         (1, 7): 'Weekend',
