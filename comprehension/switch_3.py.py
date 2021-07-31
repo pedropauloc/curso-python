@@ -1,3 +1,4 @@
+
 def get_type_day(day):
     days = {
         (1, 7): 'Weekend',
@@ -5,6 +6,7 @@ def get_type_day(day):
     }
     chosen_day = (type for numbers, type in days.items() if day in numbers)
     return next(chosen_day, '** Invalid Day **')
+
 
 if __name__ == '__main__':
     for day in range(0, 9):
