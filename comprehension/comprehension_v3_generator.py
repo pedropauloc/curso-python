@@ -1,5 +1,5 @@
-# consome menos memoria do que uma list comprehesion
-# gera os dados sobre demanda
+# consumes less memory than a list comprehension
+# generates data on demand
 
 generator = (i ** 2 for i in range(10) if i % 2 == 0)
 print(next(generator)) # Output 0
