@@ -1,0 +1,7 @@
+Positional functions
+    - func(p1, p2, p3) - receives the values ​​in sequence, as described
+Named functions
+    - func(2, p3=1, p2=2) - you named what each parameter will receive
+
+*args - generates a tuple
+**kwargs - generates a dict
