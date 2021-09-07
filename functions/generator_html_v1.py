@@ -1,4 +1,4 @@
-def tag_bloco(text, classe='success'):
+def tag_bloco(text, classe='success'): # classe = css (opcional)
     return f'<div class="{classe}">{text}</div>'
 
 if __name__ == '__main__':
