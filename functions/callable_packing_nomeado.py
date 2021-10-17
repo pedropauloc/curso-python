@@ -1,4 +1,6 @@
+#!/usr/bin/python3
 # keyword arguments - tem que passar argumentos nomeados
+
 def calc_preco_final(preco_bruto, calc_imposto, **params):
     return preco_bruto + preco_bruto * calc_imposto(**params)
 
@@ -11,5 +13,5 @@ def imposto_y(explosivo, fator_multi=1):
 if __name__ == '__main__':
     preco_bruto = 134.98
     preco_final = calc_preco_final(preco_bruto, imposto_x, importado=True)
-    preco_final = calc_preco_final(preco_bruto, imposto_y, explosivo=True, fator_mult=1.5)
+    preco_final = calc_preco_final(preco_bruto, imposto_y, explosivo=True, fator_multi=1.5)
     print(f'Preco final R$ {preco_final}')
