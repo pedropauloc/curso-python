@@ -1,12 +1,14 @@
+#!/usr/bin/python3
+
 def fibonacci():
-    penultimate = 0
-    last = 1
-    print(f'{penultimate}, {last}', end=',')
+    penultimo = 0
+    ultimo = 1
+    print(f'{penultimo}, {ultimo}', end=',')
     while True:
-        next = penultimate + last
-        print(next, end=', ')
-        penultimate = last
-        last = next
+        proximo = ultimo + penultimo
+        print(f'{proximo}', end=',')
+        penultimo = ultimo
+        ultimo = proximo
 
 
 if __name__ == '__main__':

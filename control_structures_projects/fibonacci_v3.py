@@ -3,13 +3,11 @@
 def fibonacci(limite):
     penultimo = 0
     ultimo = 1
-    # o end=',' deixa explicito que eu não quero uma quebra de linha
     print(f'{penultimo}, {ultimo}', end=',')
     while ultimo < limite:
-        proximo = ultimo + penultimo
-        print(proximo, end=',')
-        penultimo = ultimo
-        ultimo = proximo
+        (penultimo, ultimo) = (ultimo, penultimo + ultimo)
+        print(ultimo, end=',')
+        
 
 
 if __name__ == '__main__':
